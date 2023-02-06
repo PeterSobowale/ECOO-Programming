@@ -28,10 +28,10 @@ with open("DATA11.txt", "r") as f:
         n = int(lines[i + 2])
 
         # calculate the funds and append the result to the list
-        y1 = y1 * n  
-        y2 = y2 * n  
-        y3 = y3 * n  
-        y4 = y4 * n  
+        y1 = y1 * n
+        y2 = y2 * n
+        y3 = y3 * n
+        y4 = y4 * n
 
         # calculate which grade of students has the most so I can
         # add all the "extra" students to the end of the one with the most.
@@ -77,10 +77,10 @@ with open("DATA11.txt", "r") as f:
 
         # calculate the money each student is going to give
         # if there is still a decimal number it floors
-        y1 = math.ceil(y1) * 12  
-        y2 = math.ceil(y2) * 10  
-        y3 = math.ceil(y3) * 7  
-        y4 = math.ceil(y4) * 5 
+        y1 = math.ceil(y1) * 12
+        y2 = math.ceil(y2) * 10
+        y3 = math.ceil(y3) * 7
+        y4 = math.ceil(y4) * 5
 
         # add up the total money
         money = y1 + y2 + y3 + y4
